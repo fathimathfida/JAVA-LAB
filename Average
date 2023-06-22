@@ -29,3 +29,15 @@ e.printStackTrace();
 }
 }
 }
+
+output
+------
+  Enter the no. of integers: 
+5
+Enter the numbers:
+7
+5
+3
+9
+2
+Average: 5.0
