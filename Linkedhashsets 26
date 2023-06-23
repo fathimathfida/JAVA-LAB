@@ -1,0 +1,26 @@
+import java.util.*;
+public class LinkedHashSets{
+public static void main(String args[]){
+LinkedHashSet<String> set=new LinkedHashSet<String>();
+set.add("a");
+set.add("b");
+set.add("c");
+set.add("d");
+Iterator<String> itr=set.iterator();
+System.out.println("The Elements in the set:");
+while(itr.hasNext()){
+System.out.println(itr.next()+" ");
+}
+}
+}
+
+
+output
+------
+ksb@ksb-ThinkCentre-Edge72:~/javaLab$ javac LinkedHashSets.java
+ksb@ksb-ThinkCentre-Edge72:~/javaLab$ java LinkedHashSets
+The Elements in the set:
+a 
+b 
+c 
+d 
