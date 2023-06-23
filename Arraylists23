@@ -1,0 +1,37 @@
+import java.util.*;
+class ArrayLists{
+public static void main(String args[]){
+ArrayList<String> al=new ArrayList<String>();
+System.out.println("initial size of al:" + al.size());
+al.add("a");
+al.add("b");
+al.add("c");
+al.add("d");
+al.add("e");
+al.add("f");
+al.add(1,"a2");
+System.out.println("size of al after additions:" +al.size());
+System.out.println("contetnts of al:" + al);
+String str =al.get(2);
+al.set(2,str+"updated");
+System.out.println("contents of al after updation:" + al);
+al.remove("d");
+al.remove(2);
+System.out.println("size of al after deletions:" + al.size());
+System.out.println("contents of al:" + al);
+}
+}
+
+output
+------
+ksb@ksb-ThinkCentre-Edge72:~/javaLab$ java ArrayLists
+initial size of al:0
+size of al after additions:7
+contetnts of al:[a, a2, b, c, d, e, f]
+contents of al after updation:[a, a2, bupdated, c, d, e, f]
+size of al after deletions:5
+contents of al:[a, a2, c, e, f]
+ksb@ksb-ThinkCentre-Edge72:~/javaLab$ 
+
+
+
