@@ -30,3 +30,10 @@ r.displaySportsscore();
 }
 }
 
+output
+-------
+  ksb@ksb-ThinkCentre-Edge72:~/javaLab$ javac SportsStudent.java
+ksb@ksb-ThinkCentre-Edge72:~/javaLab$ java SportsStudent
+Academic score:10
+Sportsscore:25
+
