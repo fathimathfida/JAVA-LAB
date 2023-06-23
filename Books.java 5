@@ -83,3 +83,32 @@ import java.util.*;
     }
     }
     }
+
+output
+-------
+    ksb@ksb-ThinkCentre-Edge72:~/javaLab$ javac Books.java
+ksb@ksb-ThinkCentre-Edge72:~/javaLab$ java Books
+	 Literature
+-------------------------------------------------
+#1
+Publisher	:Harper collins
+Title		:The Alchemist
+Author		:Paulo coelo
+Type		:Drama
+#2
+Publisher	:DC books
+Title		:Arachar
+Author		:K.R Meera
+Type		:Novel
+	Fiction
+-------------------------------------------------
+#1
+Publisher	:Cassel
+Title		:Macbeth
+Author		:William shakspeare
+Genre		:Tragedy
+#2
+Publisher	:Pengui books
+Title		: The legend of khasak
+Author		:O.V vijayan
+Genre		:Magical realism
