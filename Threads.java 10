@@ -54,3 +54,24 @@ p.start();
 }
 }
 
+output
+-------
+  ksb@ksb-ThinkCentre-Edge72:~/javaLab$ java Threads
+Enter the no.of prime numbers:5
+0x5:0
+prime number:2
+1x5:5
+prime number:3
+2x5:10
+prime number:5
+3x5:15
+4x5:20
+prime number:7
+5x5:25
+6x5:30
+7x5:35
+8x5:40
+prime number:11
+9x5:45
+10x5:50
+
