@@ -27,3 +27,23 @@ System.out.println(str +" ");
 }
 }
 }
+
+output
+-------
+  
+  ksb@ksb-ThinkCentre-Edge72:~/javaLab$ javac Deques.java
+ksb@ksb-ThinkCentre-Edge72:~/javaLab$ java Deques
+Element in dequeue:
+a
+b
+c
+d
+e
+
+After first element deleted:
+b 
+c 
+d 
+e 
+
+After all element deleted
