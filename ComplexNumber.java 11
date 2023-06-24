@@ -27,3 +27,16 @@ ComplexNumber sum=n1.sum(n1,n2);
 System.out.println("\nSum: "+ sum.real + " + " + sum.imaginary+"i");
 }
 }
+
+output
+------
+  ksb@ksb-ThinkCentre-Edge72:~/javaLab$ javac ComplexNumber.java
+ksb@ksb-ThinkCentre-Edge72:~/javaLab$ java ComplexNumber
+Enter first number:--
+Real:5
+Imaginary:3
+Enter second number:--
+Real:7
+Imaginary:4
+
+Sum: 12 + 7i
