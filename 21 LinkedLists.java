@@ -12,3 +12,10 @@ ll.clear();
 System.out.println("contents of ll after deletion:"+ll);
 }
 }
+
+
+output
+------
+  ksb@ksb-ThinkCentre-Edge72:~/javaLab$ java LinkedLists
+current contents of ll:[a, b, c, d, e]
+contents of ll after deletion:[]
