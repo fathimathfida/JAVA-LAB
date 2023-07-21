@@ -132,3 +132,100 @@ return RecursiveBinarySearch(numbers,mid+1,last,x);
 return -1;
 }
 }
+
+output
+
+ksb@ksb-ThinkCentre-Edge72:~/java$ java ArraySearch
+Enter no. of elements: 3
+
+Enter elements of Array: 2 7 9
+
+
+Enter the elements to search: 7
+
+
+Search Methods in Array
+------------------------
+1.Linear Search
+2.Simple Binary Search
+3.Recursive Binary Search
+4.Built in Binary Search
+5.Exit
+
+Enter your option: 1
+Item Found
+
+
+Do you want to exit?
+1.Yes
+2.No
+Choose your option: 2
+
+
+Enter the elements to search: 2
+
+
+Search Methods in Array
+------------------------
+1.Linear Search
+2.Simple Binary Search
+3.Recursive Binary Search
+4.Built in Binary Search
+5.Exit
+
+Enter your option: 2
+Item Found
+
+
+Do you want to exit?
+1.Yes
+2.No
+Choose your option: 1
+ksb@ksb-ThinkCentre-Edge72:~/java$ java ArraySearch
+Enter no. of elements: 3
+
+Enter elements of Array: 5 8 2
+
+
+Enter the elements to search: 5
+
+
+Search Methods in Array
+------------------------
+1.Linear Search
+2.Simple Binary Search
+3.Recursive Binary Search
+4.Built in Binary Search
+5.Exit
+
+Enter your option: 3
+ Item found
+
+
+Do you want to exit?
+1.Yes
+2.No
+Choose your option: 2
+
+
+Enter the elements to search: 8
+
+
+Search Methods in Array
+------------------------
+1.Linear Search
+2.Simple Binary Search
+3.Recursive Binary Search
+4.Built in Binary Search
+5.Exit
+
+Enter your option: 4
+ Item found
+
+
+Do you want to exit?
+1.Yes
+2.No
+Choose your option: 1
+ksb@ksb-ThinkCentre-Edge72:~/java$ 
+
