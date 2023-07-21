@@ -110,6 +110,14 @@ import java.applet.*;
                 g.drawArc(130,180,50,20,180,-180);
             }
         }}
+
+
+output
+-------
+    ksb@ksb-ThinkCentre-Edge72:~/Class3-DDL Commands_files/ssd/28 Applet 2$ javac Applets.java
+
+    ksb@ksb-ThinkCentre-Edge72:~/Class3-DDL Commands_files/ssd/28 Applet 2$ appletviewer Applets.java
+
      
     /*
     <applet code="Applets.class" width=300 height=300>
